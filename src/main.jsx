@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 
   {
     path: "/home",
-    element: <Tailwind />,
+    element: <Tailwind />,  
   },
 
   { 

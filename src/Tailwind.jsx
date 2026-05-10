@@ -144,7 +144,7 @@ const Tailwind = () => {
               <span className="font-semibold">GitHub</span>
             </Link>
  
-            {/* LinkedIn */}
+            {/* LinkedIn */}   
             <Link
               to="https://www.linkedin.com/in/nitesh-goswami-b09324312/"
               target="_blank"

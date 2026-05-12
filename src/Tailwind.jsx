@@ -6,7 +6,7 @@ import Image from './assets/employee1.png'
 import Image2 from './assets/IMG_6509.JPG'
 import Resume from './assets/Nitesh.pdf'
 
-import {
+import {   
   FaGithub,
   FaInstagram,
   FaLinkedin,

@@ -17,19 +17,17 @@ const Tailwind = () => {
   return (
     <>
       {/* Navbar */}
-      <div className='flex items-center bg-black text-white p-4 fixed top-0 w-full z-50 shadow-lg'>
+      <div className='flex flex-col md:flex-row justify-between items-center bg-black text-white p-4 fixed top-0 w-full z-50 shadow-lg gap-4 md:gap-0'>
 
         {/* Logo */}
         <img
           src={Image2}
           alt="Nitesh"
-          width={40}
-          height={40}
-          className='rounded-full border-2 border-white object-cover '
+          className='w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-white object-cover'
         />
 
         {/* Nav Links */}
-        <ul className='flex gap-8 mx-auto items-center font-medium'>
+        <ul className='flex gap-4 sm:gap-6 md:gap-8 mx-auto items-center font-medium text-sm sm:text-base flex-wrap justify-center'>
 
           <li className='hover:text-red-500 duration-300'>
             <Link to="/home">Home</Link>
@@ -56,7 +54,7 @@ const Tailwind = () => {
         {/* Download Resume Button */}
         <Link to={Resume} target="_blank">
           <button
-            className='bg-white text-black border border-black rounded-lg px-4 py-2
+            className='bg-white text-black border border-black rounded-lg px-3 py-1.5 md:px-4 md:py-2 text-sm sm:text-base
             hover:-translate-y-2 hover:rotate-1 hover:bg-red-500 hover:text-white
             transition-all duration-300 shadow-lg'
           >
@@ -67,29 +65,29 @@ const Tailwind = () => {
       </div>
 
       {/* Hero Section */}
-      <div className="flex flex-col lg:flex-row items-center gap-10 px-10 min-h-screen pt-28 bg-gray-100">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-10 px-6 md:px-10 min-h-screen pt-44 md:pt-28 bg-gray-100 text-center lg:text-left">
 
         {/* Profile Image */}
         <img
           src={Image2}
           alt="Nitesh"
-          className="w-[250px] h-[250px] border-4 border-black rounded-full object-cover shadow-2xl" />
+          className="w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] border-4 border-black rounded-full object-cover shadow-2xl" />
 
         {/* Content */}
         <div>
 
-          <h1 className="text-5xl font-bold text-black hover:text-red-500 transition duration-300 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black hover:text-red-500 transition duration-300 leading-tight">
             Hi there 👋 <br />
             I'm Nitesh Goswami 😎
           </h1>
 
-          <p className="mt-4 text-lg text-gray-700 hover:text-red-500 transition duration-300 max-w-2xl">
+          <p className="mt-4 text-base md:text-lg text-gray-700 hover:text-red-500 transition duration-300 max-w-2xl px-2 lg:px-0">
             Python Full Stack Developer |
             Passionate about building scalable applications and exploring new technologies.
           </p>
 
           {/* Social Buttons */}
-          <div className="flex gap-6 mt-8 flex-wrap">
+          <div className="flex gap-4 md:gap-6 mt-8 flex-wrap justify-center lg:justify-start">
 
             {/* Email */}
             <Link
@@ -110,7 +108,7 @@ const Tailwind = () => {
               transition-all duration-300"
             >
               <FaEnvelope size={22} />
-              <span className="font-semibold">Email</span>
+              <span className="font-semibold text-sm sm:text-base">Email</span>
             </Link>
 
             {/* Instagram */}
@@ -125,7 +123,7 @@ const Tailwind = () => {
               transition-all duration-300"
             >
               <FaInstagram size={22} />
-              <span className="font-semibold">Instagram</span>
+              <span className="font-semibold text-sm sm:text-base">Instagram</span>
             </Link>
 
             {/* GitHub */}
@@ -140,7 +138,7 @@ const Tailwind = () => {
               transition-all duration-300"
             >
               <FaGithub size={22} />
-              <span className="font-semibold">GitHub</span>
+              <span className="font-semibold text-sm sm:text-base">GitHub</span>
             </Link>
  
             {/* LinkedIn */}   
@@ -155,7 +153,7 @@ const Tailwind = () => {
               transition-all duration-300"
             >
               <FaLinkedin size={22} />
-              <span className="font-semibold">LinkedIn</span>
+              <span className="font-semibold text-sm sm:text-base">LinkedIn</span>
             </Link>
 
           </div>

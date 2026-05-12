@@ -17,13 +17,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-black via-gray-900 to-black text-white flex items-center justify-center px-4 py-6">
+    <div className="min-h-screen w-full bg-gradient-to-br from-black via-gray-900 to-black text-white flex items-center justify-center px-4 py-6 pt-32 md:pt-6">
 
       {/* Main Card */}
       <div className="w-full max-w-2xl bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl p-5 sm:p-7">
 
         {/* Navbar */}
-        <div className="flex justify-center gap-3 mb-7 flex-wrap">
+        <div className="flex justify-center gap-3 mb-5 sm:mb-7 flex-wrap">
 
           <Link
             to="/"
@@ -48,7 +48,7 @@ const Contact = () => {
           Contact Me
         </h1>
 
-        <p className="text-center text-gray-300 mb-7 text-sm">
+        <p className="text-center text-gray-300 mb-5 sm:mb-7 text-sm sm:text-base">
           Feel free to connect with me anytime 🚀
         </p>
 
@@ -59,7 +59,7 @@ const Contact = () => {
           <Link
             to="#"
             onClick={handlePhoneClick}
-            className="w-full flex items-center gap-3 bg-white/10 hover:bg-green-500 p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
+            className="w-full flex items-center gap-3 sm:gap-4 bg-white/10 hover:bg-green-500 p-3 sm:p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
           >
 
             <div className="bg-green-500 p-3 rounded-full flex items-center justify-center">
@@ -67,11 +67,11 @@ const Contact = () => {
             </div>
 
             <div>
-              <h2 className="text-base font-semibold">
+              <h2 className="text-sm sm:text-base font-semibold">
                 Phone
               </h2>
 
-              <p className="text-gray-300 text-sm break-all">
+              <p className="text-gray-300 text-xs sm:text-sm break-all">
                 +91 9753856359
               </p>
             </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                 "_blank"
               );
             }}
-            className="w-full flex items-center gap-3 bg-white/10 hover:bg-red-500 p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
+            className="w-full flex items-center gap-3 sm:gap-4 bg-white/10 hover:bg-red-500 p-3 sm:p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
           >
 
             <div className="bg-red-500 p-3 rounded-full flex items-center justify-center">
@@ -97,11 +97,11 @@ const Contact = () => {
             </div>
 
             <div>
-              <h2 className="text-base font-semibold">
+              <h2 className="text-sm sm:text-base font-semibold">
                 Email
               </h2>
 
-              <p className="text-gray-300 text-sm break-all">
+              <p className="text-gray-300 text-xs sm:text-sm break-all">
                 niteshgoswami72812@gmail.com
               </p>
             </div>
@@ -111,7 +111,7 @@ const Contact = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex justify-center gap-4 mt-8 flex-wrap">
+        <div className="flex justify-center gap-3 sm:gap-4 mt-6 sm:mt-8 flex-wrap">
 
           {/* Github */}
           <Link

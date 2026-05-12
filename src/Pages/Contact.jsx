@@ -27,7 +27,7 @@ const Contact = () => {
 
           <Link
             to="/"
-            className="flex items-center gap-2 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-xl transition-all duration-300 hover:scale-105 text-sm"
+            className="flex items-center gap-2 bg-white/10 hover:bg-green-400 px-4 py-2 rounded-xl transition-all duration-300 hover:scale-105 text-sm"
           >
             <FaHome />
             Home
@@ -59,7 +59,7 @@ const Contact = () => {
           <Link
             to="#"
             onClick={handlePhoneClick}
-            className="w-full flex items-center gap-3 bg-white/10 hover:bg-green-500/20 p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
+            className="w-full flex items-center gap-3 bg-white/10 hover:bg-green-500 p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
           >
 
             <div className="bg-green-500 p-3 rounded-full flex items-center justify-center">
@@ -89,7 +89,7 @@ const Contact = () => {
                 "_blank"
               );
             }}
-            className="w-full flex items-center gap-3 bg-white/10 hover:bg-red-500/20 p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
+            className="w-full flex items-center gap-3 bg-white/10 hover:bg-red-500 p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"
           >
 
             <div className="bg-red-500 p-3 rounded-full flex items-center justify-center">
@@ -126,7 +126,7 @@ const Contact = () => {
           <Link
             to="https://instagram.com/"
             target="_blank"
-            className="bg-white/10 hover:bg-pink-500 p-3 rounded-full text-xl transition-all duration-300 hover:scale-110 shadow-lg"
+            className="bg-white/10 hover:bg-pink-600 p-3 rounded-full text-xl transition-all duration-300 hover:scale-110 shadow-lg"
           >
             <FaInstagram />
           </Link>
@@ -135,7 +135,7 @@ const Contact = () => {
           <Link
             to="https://www.linkedin.com/in/nitesh-goswami-b09324312/"
             target="_blank"
-            className="bg-white/10 hover:bg-blue-500 p-3 rounded-full text-xl transition-all duration-300 hover:scale-110 shadow-lg"
+            className="bg-white/10 hover:bg-blue-600 p-3 rounded-full text-xl transition-all duration-300 hover:scale-110 shadow-lg"
           >
             <FaLinkedin />
           </Link>

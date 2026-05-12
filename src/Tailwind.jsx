@@ -21,11 +21,11 @@ const Tailwind = () => {
 
         {/* Logo */}
         <img
-          src={Image}
+          src={Image2}
           alt="Nitesh"
           width={40}
           height={40}
-          className='rounded-full border-2 border-white object-cover'
+          className='rounded-full border-2 border-white object-cover '
         />
 
         {/* Nav Links */}
@@ -73,13 +73,12 @@ const Tailwind = () => {
         <img
           src={Image2}
           alt="Nitesh"
-          className="w-[250px] h-[250px] border-4 border-black rounded-full object-cover shadow-2xl"
-        />
+          className="w-[250px] h-[250px] border-4 border-black rounded-full object-cover shadow-2xl" />
 
         {/* Content */}
         <div>
 
-          <h1 className="text-5xl font-bold text-black hover:text-red-600 transition duration-300 leading-tight">
+          <h1 className="text-5xl font-bold text-black hover:text-red-500 transition duration-300 leading-tight">
             Hi there 👋 <br />
             I'm Nitesh Goswami 😎
           </h1>
@@ -107,7 +106,7 @@ const Tailwind = () => {
               shadow-[0_10px_25px_rgba(0,0,0,0.3)]
               border border-white/40
               hover:-translate-y-2 hover:rotate-1
-              hover:bg-green-300 hover:text-white
+              hover:bg-green-400 hover:text-white
               transition-all duration-300"
             >
               <FaEnvelope size={22} />
@@ -122,7 +121,7 @@ const Tailwind = () => {
               shadow-[0_10px_25px_rgba(0,0,0,0.3)]
               border border-white/40
               hover:-translate-y-2 hover:rotate-1
-              hover:bg-pink-400 hover:text-white
+              hover:bg-pink-600 hover:text-white
               transition-all duration-300"
             >
               <FaInstagram size={22} />
@@ -152,7 +151,7 @@ const Tailwind = () => {
               shadow-[0_10px_25px_rgba(0,0,0,0.3)]
               border border-white/40
               hover:-translate-y-2 hover:rotate-1
-              hover:bg-blue-400 hover:text-white
+              hover:bg-blue-600 hover:text-white
               transition-all duration-300"
             >
               <FaLinkedin size={22} />

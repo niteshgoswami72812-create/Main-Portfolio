@@ -140,7 +140,7 @@ const Tailwind = () => {
               <FaGithub size={22} />
               <span className="font-semibold text-sm sm:text-base">GitHub</span>
             </Link>
- 
+     
             {/* LinkedIn */}   
             <Link
               to="https://www.linkedin.com/in/nitesh-goswami-b09324312/"

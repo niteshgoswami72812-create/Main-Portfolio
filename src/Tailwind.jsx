@@ -121,7 +121,7 @@ const Tailwind = () => {
               hover:-translate-y-2 hover:rotate-1
               hover:bg-pink-600 hover:text-white
               transition-all duration-300"
-            >
+            >  
               <FaInstagram size={22} />
               <span className="font-semibold text-sm sm:text-base">Instagram</span>
             </Link>

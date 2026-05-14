@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <Tailwind />,  
   },
 
-  { 
+  {  
     path: "/contact",
     element: <Contact />,
   },

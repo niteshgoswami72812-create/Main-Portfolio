@@ -116,7 +116,7 @@ const About = () => {
             <div className="flex flex-col items-center bg-black/40 p-4 rounded-2xl hover:bg-green-500/20 duration-300">
               <SiDjango className="text-4xl text-green-400 mb-2" />
               <p>Django</p>
-            </div>
+            </div>   
 
             {/* MySQL */}
             <div className="flex flex-col items-center bg-black/40 p-4 rounded-2xl hover:bg-orange-500/20 duration-300">

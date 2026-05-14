@@ -56,7 +56,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 gap-4">
 
           {/* Phone */}
-          <Link
+          <Link 
             to="#"
             onClick={handlePhoneClick}
             className="w-full flex items-center gap-3 sm:gap-4 bg-white/10 hover:bg-green-500 p-3 sm:p-4 rounded-2xl transition-all duration-300 hover:scale-[1.01] shadow-lg"

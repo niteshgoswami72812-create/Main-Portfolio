@@ -109,7 +109,7 @@ const Tailwind = () => {
             >
               <FaEnvelope size={22} />
               <span className="font-semibold text-sm sm:text-base">Email</span>
-            </Link>
+            </Link>  
 
             {/* Instagram */}
             <Link

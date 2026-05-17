@@ -141,8 +141,8 @@ const Tailwind = () => {
               <span className="font-semibold text-sm sm:text-base">GitHub</span>
             </Link>
      
-            {/* LinkedIn */}   
-            <Link
+            {/* LinkedIn */}      
+            <Link  
               to="https://www.linkedin.com/in/nitesh-goswami-b09324312/"
               target="_blank"
               className="flex items-center gap-3 bg-white text-black px-6 py-3 rounded-2xl
@@ -158,7 +158,7 @@ const Tailwind = () => {
 
           </div>
 
-        </div>
+        </div> 
 
       </div>
 

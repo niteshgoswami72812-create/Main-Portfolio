@@ -154,11 +154,11 @@ const Tailwind = () => {
             >
               <FaLinkedin size={22} />
               <span className="font-semibold text-sm sm:text-base">LinkedIn</span>
-            </Link>
+            </Link>   
 
           </div>
 
-        </div> 
+        </div>   
 
       </div>
 

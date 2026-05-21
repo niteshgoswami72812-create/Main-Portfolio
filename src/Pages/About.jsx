@@ -14,7 +14,7 @@ import {
   SiMysql,
 } from "react-icons/si";
 
-const About = () => {
+ const About = () => {
   return (
     <div className="min-h-screen bg-black text-white px-5 sm:px-10 md:px-20 py-10 md:py-14 pt-32 md:pt-28">
 

@@ -13,7 +13,7 @@ import About from './Pages/About';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/", 
     element: <Tailwind />,
   },
 

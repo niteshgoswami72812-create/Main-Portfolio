@@ -52,7 +52,7 @@ const Contact = () => {
           Feel free to connect with me anytime 🚀
         </p>
 
-        {/* Contact Cards */}
+        {/* Contact Cards */}   
         <div className="grid grid-cols-1 gap-4">
 
           {/* Phone */}

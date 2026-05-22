@@ -12,7 +12,7 @@ import {
   SiDjango,
   SiJavascript,
   SiMysql,
-} from "react-icons/si";
+} from "react-icons/si";  
 
  const About = () => {
   return (

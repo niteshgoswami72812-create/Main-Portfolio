@@ -41,7 +41,7 @@ const Tailwind = () => {
           <li className='hover:text-red-500 duration-300'>
             <Link to="/contact">Contact</Link>
           </li>
-
+   
           {/* Resume */}
           <li className='hover:text-red-500 duration-300'>
             <Link to={Resume} target="_blank">

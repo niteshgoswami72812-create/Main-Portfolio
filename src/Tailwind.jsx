@@ -48,9 +48,9 @@ const Tailwind = () => {
               Resume
             </Link>  
           </li>
-
+  
         </ul>
- 
+     
         {/* Download Resume Button */}
         <Link to={Resume} target="_blank">
           <button

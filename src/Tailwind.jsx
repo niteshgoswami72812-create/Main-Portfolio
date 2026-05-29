@@ -48,7 +48,7 @@ const Tailwind = () => {
               Resume
             </Link>  
           </li>
-  
+   
         </ul>
      
         {/* Download Resume Button */}
@@ -59,7 +59,7 @@ const Tailwind = () => {
             transition-all duration-300 shadow-lg'
           >
             Download Resume
-          </button>
+          </button>  
         </Link>
 
       </div>

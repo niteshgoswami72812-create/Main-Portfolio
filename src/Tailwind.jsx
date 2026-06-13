@@ -23,7 +23,7 @@ const Tailwind = () => {
         <img
           src={Image2}
           alt="Nitesh"
-          className='w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-white object-cover'
+          className='w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-white object-fill'
         />
 
         {/* Nav Links */}
@@ -71,7 +71,7 @@ const Tailwind = () => {
         <img
           src={Image2}
           alt="Nitesh"
-          className="w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] border-4 border-black rounded-full object-cover shadow-2xl" />
+          className="w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] border-4 border-black rounded-full object-fill shadow-2xl" />
 
         {/* Content */}
         <div>

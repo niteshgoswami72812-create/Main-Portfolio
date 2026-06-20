@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-
+ 
 import Tailwind from './Tailwind'
 import Contact from './Pages/Contact'
 import About from './Pages/About';
